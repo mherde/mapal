@@ -1,0 +1,10 @@
+annotlib
+numpy
+joblib
+jupyter
+scipy
+scikit-learn
+matplotlib
+pandas
+seaborn
+numpy_indexed
