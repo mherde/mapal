@@ -7,7 +7,6 @@ Authors: Marek Herde, Daniel Kottke, Denis Huseljic, and Bernhard Sick
 - plots: directory where the visualizations of MaPAL will be saved
 - results: path where all results will be stored including csvs, learning curves, and ranking statistics
 - src: Python package consisting of several sub-packages
-    - annotlib: package to simulate annotators
     - base: implementation of DataSet and QueryStrategy class
     - classifier: implementation of Similarity based Classifier (SbC) being an advancement of the Parzen Window Classifier (PWC) 
     - evaluation_scripts: scripts for experimental setup
