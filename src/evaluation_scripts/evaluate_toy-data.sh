@@ -5,7 +5,7 @@ export PYTHONPATH="${PYTHONPATH}":"$dir"
 
 # global settings
 reps=$1
-query_strategies="random"
+query_strategies="mapal-1-0.0001-1-1-entropy mapal-1-0.0001-2-1-entropy mapal-1-0.0001-3-1-entropy mapal-1-1.0-2-1-entropy mapal-1-0.01-2-1-entropy mapal-1-0.0001-2-1-entropy"
 data_sets="large-example-data-set-x"
 budget=200
 test_ratio=0.8
