@@ -2,7 +2,7 @@
 
 Authors: Marek Herde, Daniel Kottke, Denis Huseljic, and Bernhard Sick
 
-[Supplementary Material](mapal-supplementary.pdf) (supplementary-material.pdf) contains further details on the experimental setup (i.e., information about data sets and annotator simulation techniques) and additional results (i.e.,  learning curves, an area under learning curve tables and a run time table).
+[Supplementary Material](mapal-supplementary.pdf) (supplementary-material.pdf) contains further details on the experimental setup (i.e., information about data sets and annotator simulation techniques) and additional results (i.e.,  learning curves, a table of area under learning curve values, and a table of run times).
 
 ## Project Structure
 - data: contains .csv-files of data sets being not available at [OpenML](https://www.openml.org/home)
