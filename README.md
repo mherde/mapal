@@ -77,7 +77,7 @@ To create the ranking statistics, there must be at least one run for each strate
 
 To conduct the experiments data sets with real-world annotators in accordance to the article, execute the following command:
 ```bash
-projectpath$ bash src/evaluation/evaluate_real-world-local.sh 5
+projectpath$ bash src/evaluation_scripts/evaluate_real-world-local.sh 5
 ```
 The argument `5` is an example and gives the maximum number of runs that can be executed in parallel. You can change this number.
 
@@ -107,6 +107,19 @@ projectpath$ jupyter-notebook
 
 ## How to reproduce the annotation performance and instance utility plots?
 Start jupyter-notebook and run the jupyter-notebook file `mapal/src/notebooks/visualization.ipynb`.
+```bash
+projectpath$ source mapal/bin/activate
+projectpath$ jupyter-notebook
+```
+
+## How to reproduce study on hyperparameters?
+Run experiments on toy data set by executing the following command.
+```bash
+projectpath$ bash src/evaluation_scripts/evaluate_toy-data.sh 5
+```
+The argument `5` is an example and gives the maximum number of runs that can be executed in parallel. You can change this number.
+
+Start jupyter-notebook and run the jupyter-notebook file `mapal/src/notebooks/hyperparameters.ipynb`.
 ```bash
 projectpath$ source mapal/bin/activate
 projectpath$ jupyter-notebook
