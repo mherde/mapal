@@ -17,7 +17,7 @@ Authors: Marek Herde, Daniel Kottke, Denis Huseljic, and Bernhard Sick
     - utils: helper functions
 
 ## How to execute an experiment?
-Due to the large number of experiments, we executed the experiments on a computer cluster. Using these nodes, we were able to execute 100 experiments simultaneously. 
+Due to the large number of experiments, we executed the experiments on a computer cluster. This way, we were able to execute 100 experiments simultaneously. 
 
 Without such a computer cluster, it will  probably take several days to reproduce all results of the article. Nevertheless, one can execute the 
 experiments on a local personal computer by following the upcoming steps.
