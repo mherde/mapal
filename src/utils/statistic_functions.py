@@ -260,7 +260,6 @@ def extract_execution_times(dic):
     return execution_times_dic
     
 
-
 def compute_aulc_ranks(dic, c, eval_type='test'):
     aulc_ranks = None
     aulc_vals = []
@@ -276,18 +275,10 @@ def compute_aulc_ranks(dic, c, eval_type='test'):
                 test = wilcoxon(dic[d][c][eval_type+'-aulc'], dic[d][q][eval_type+'-aulc'], alternative='less')
                 if test.pvalue < 0.001:
                     test_results[q_idx, d_idx] = 3
-                elif test.pvalue < 0.01:
-                    test_results[q_idx, d_idx] = 2
-                elif test.pvalue < 0.05:
-                    test_results[q_idx, d_idx] = 1
                 else:
                     test = wilcoxon(dic[d][c][eval_type+'-aulc'], dic[d][q][eval_type+'-aulc'], alternative='greater')
                     if test.pvalue < 0.001:
                         test_results[q_idx, d_idx] = -3
-                    elif test.pvalue < 0.01:
-                        test_results[q_idx, d_idx] = -2
-                    elif test.pvalue < 0.05:
-                        test_results[q_idx, d_idx] = -1
 
         aulc_vals_d = np.array(aulc_vals_d)
         aulc_vals.append(aulc_vals_d)
