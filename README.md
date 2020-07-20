@@ -106,7 +106,7 @@ projectpath$ jupyter-notebook
 ```
 
 ## How to reproduce the annotation performance and instance utility plots?
-Start jupyter-notebook and run the jupyter-notebook file `mapal/src/notebooks/visualization.ipynb`.
+Start jupyter-notebook and run the jupyter-notebook file `projectpath/src/notebooks/visualization.ipynb`.
 ```bash
 projectpath$ source mapal/bin/activate
 projectpath$ jupyter-notebook
@@ -119,7 +119,7 @@ projectpath$ bash src/evaluation_scripts/evaluate_toy-data.sh 5
 ```
 The argument `5` is an example and gives the maximum number of runs that can be executed in parallel. You can change this number.
 
-Start jupyter-notebook and run the jupyter-notebook file `mapal/src/notebooks/hyperparameters.ipynb`.
+Start jupyter-notebook and run the jupyter-notebook file `projectpath/src/notebooks/hyperparameters.ipynb`.
 ```bash
 projectpath$ source mapal/bin/activate
 projectpath$ jupyter-notebook
