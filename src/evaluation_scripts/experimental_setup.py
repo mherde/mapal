@@ -13,7 +13,7 @@ from argparse import ArgumentParser
 
 from functools import partial
 
-from src.annotlib.standard import StandardAnnot
+from annotlib.standard import StandardAnnot
 from src.base.data_set import DataSet
 from src.models.parzen_window_classifier import PWC
 from src.models.beta_annotators_model import BAM
